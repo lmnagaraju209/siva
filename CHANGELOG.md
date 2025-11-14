@@ -4,7 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+
+## [1.2.0] - 2024-11-14
 
 ### Added
 - Full support for Network Load Balancers (NLB) with proper protocol handling
@@ -13,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Private vs Public deployment guide (`NLB_PRIVATE_PUBLIC_GUIDE.md`)
 - Detailed README with ALB vs NLB comparison, usage examples, and troubleshooting
 - Flexible test configurations that support both ALB and NLB in same file
+- PowerShell test script for Windows (`test-module.ps1`)
 
 ### Changed
 - **Simplified test structure**: Now just 2 directories (`tests/private/`, `tests/public/`) instead of 4
@@ -51,7 +53,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://gitlab.versatilecredit.com/vci/devops/terraform/aws-lb/-/compare/v1.1.0...main
-[1.1.0]: https://gitlab.versatilecredit.com/vci/devops/terraform/aws-lb/-/compare/v1.0.1...v1.1.0
-[1.0.1]: https://gitlab.versatilecredit.com/vci/devops/terraform/aws-lb/-/compare/v1.0.0...v1.0.1
-[1.0.0]: https://gitlab.versatilecredit.com/vci/devops/terraform/aws-lb/-/commits/v1.0.0
