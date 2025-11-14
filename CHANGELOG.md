@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Private vs Public deployment guide (`NLB_PRIVATE_PUBLIC_GUIDE.md`)
 - Detailed README with ALB vs NLB comparison, usage examples, and troubleshooting
 - Flexible test configurations that support both ALB and NLB in same file
-- PowerShell test script for Windows (`test-module.ps1`)
+
 
 ### Changed
 - **Simplified test structure**: Now just 2 directories (`tests/private/`, `tests/public/`) instead of 4
